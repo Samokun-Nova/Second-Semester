@@ -1,0 +1,25 @@
+**In order to run this project, there is a need to set up a React development environment and install the required dependencies,
+ including React and React Router.
+
+About Project:
+This is a project Setup with a custom counter hook with increment, decrement, reset,
+setValue functions, creating a poge for custom hook, 404, and a page to test error boundary.
+
+About App.js: 
+This is the routing component using React Router ErrorBoundary component to handle errors.
+
+About Home.js: 
+The Home page is the interface for access to other pages component, the page that is has link access to is,
+the Counter App, Error 404 Page, and Error Boundary Page.
+
+CounterPage.js - The CounterPage is a custom counter with increment, decrement, and reset functionality.
+ It this page also a value can be set.
+
+ErrorPage.js - The ErrorPage component is the 404 error page, page nit available, there is a link to return to the Home page.
+
+ErrorBoundary.js - The ErrorBoundary component functionality is to catch and handle errors that may occur in the application. 
+It  also displays an error message when an error is caught. 
+
+useCounter.js - A custom hook that manages the counter state and provides functions for incrementing, decrementing, resetting,
+ and setting the counter value.
+

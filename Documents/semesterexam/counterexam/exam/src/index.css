@@ -1,0 +1,177 @@
+nav {
+    width: 550px;
+    height: 500px;
+    background-color: rgba(128, 128, 128, 0.418);
+    border-radius: 10px;
+
+}
+
+.about {
+    padding-block-start: 30px;
+
+}
+
+.errorBoundary {
+    text-decoration: none;
+}
+
+
+body {
+    background-color: rgba(192, 209, 209, 0.404);
+}
+
+.home {
+    margin-block-start: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+
+}
+
+
+li {
+    list-style: none;
+    font-size: 30px;
+}
+
+.linkToCounter {
+    text-decoration: none;
+
+}
+
+.goToError {
+    text-decoration: none;
+}
+
+.goToCounter {
+    text-decoration: none;
+}
+
+.goToCounter:hover {
+    color: rgb(18, 20, 122);
+}
+
+.goToError:hover {
+    color: rgb(18, 20, 122);
+}
+
+.errorPage {
+    margin-block-start: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorPage>p {
+    font-size: 40px;
+}
+
+.goBackToHome {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(136, 135, 54);
+}
+
+.goBackToHome:hover {
+    color: rgb(36, 36, 221);
+}
+
+.counts {
+    background-color: rgba(216, 216, 216, 0.425);
+    max-width: 700px;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-block-start: 50px;
+
+
+}
+
+.buttonBox {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.increment,
+.decrement,
+.reset {
+    width: 120px;
+    height: 50px;
+    border-color: rgb(19, 18, 18);
+    border-radius: 10px;
+
+}
+
+.decrement:hover,
+.increment:hover,
+.reset:hover {
+    color: rgb(10, 12, 119);
+    background-color: rgb(204, 207, 209);
+    font-size: 15px;
+}
+
+.countValue {
+    justify-content: center;
+    align-items: center;
+    color: rgba(59, 59, 99, 0.897);
+    display: flex;
+    padding-top: 30px;
+    margin-bottom: 15px;
+}
+
+.setValueInput {
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(12, 8, 10);
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.countGoBack {
+    width: 160px;
+    height: 25px;
+    border: none;
+    color: rgb(71, 72, 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-block-start: 40px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.countGoBack:hover {
+    color: blue;
+}
+
+.about {
+    font-size: 40px;
+}
